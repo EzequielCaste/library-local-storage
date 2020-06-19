@@ -37,12 +37,12 @@ h5, h6 {
   background-color: rgb(78, 107, 213);
   
 }
-.btnRead {
+.btnEdit {
   margin-left: 2.5em;
   margin-right: 1em;
 }
-.btnRead:hover {
-  color: rgba(83, 248, 83, 0.734);
+.btnEdit:hover {
+  color: rgba(255, 255, 255, 0.734);
 }
 .btnDelete {
   color: gray;

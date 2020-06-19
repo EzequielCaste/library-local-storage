@@ -10,12 +10,11 @@
 <body>
   <header>
     <h1>Library</h1>
-    <button class="btn" id="new-book">New Book</button>
+    <button onclick="handlers.showModal('add')" class="btn" id="new-book">New Book</button>
   </header>
   
   <section id="books-display">
-    
-    
+
   </section>
   <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -34,12 +33,12 @@
 
     <label><input type="radio" name="read" id="not-read" value="false">No</label>
 
-    <button id="add" class="btn add">Add</button>
-    <button id="cancel" class="btn cancel">Cancel</button>
+    <button onclick="handlers.addBook()" id="modalBtn" class="btn add">Add</button>
+    <button onclick="handlers.closeModal()" id="cancel" class="btn cancel">Cancel</button>
     
   </div>
 
 </div>
-<script src="main.js"></script>  
+<script src="main1.js"></script>  
 </body>
 </html>
