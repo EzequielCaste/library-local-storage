@@ -8,6 +8,6 @@ Add books to your library and mark them as read or not.
 
 To do:
 
-- [ ] Add edit button
+- [X] Add edit button
 - [ ] Add book covers
 
