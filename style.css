@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700;800&display=swap');
-
 body {
   letter-spacing: 0.02em;
   text-align: center;
   margin:1em auto;
   padding:0;  
-  font-family: 'Dosis', sans-serif;
+  font-family: Arial, Helvetica, sans-serif
 }
 h5, h6 {
   font-weight: 500;  
@@ -24,18 +22,17 @@ h5, h6 {
 }
 .btn {
   display: inline;
-  padding: 0.7em;
   border:0;
   color: white;
   border-radius: 0.5em;
   outline: none;
-  background-color: rgb(47, 63, 120);
-  margin-bottom: 1em;
-  transition: all ease-in-out 0.5s;
+  background-color:rgb(47, 63, 120);
+  
+  transition: all ease-in 0.3s;
 }
 .btn:hover {
-  background-color: rgb(78, 107, 213);
-  
+  background-color:rgba(115, 162, 255, 0.774);
+  color: black;
 }
 .btnEdit {
   margin-left: 2.5em;
@@ -70,13 +67,14 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-h3 {
+h4 {
   margin-bottom: 0.4em;
 }
 
 .card {
   max-width: 12em;
   width: 95%;
+  padding: 1em;
   margin: 0.7em 0;
   border-radius: 0.5em;
   color: white;
@@ -128,7 +126,7 @@ h3 {
 }
 footer {
   text-align: center;
-  margin-top: 18em;
+  margin-top: 12em;
 }
 footer button {
   line-height: unset;

@@ -137,7 +137,7 @@ const views = {
     div.setAttribute("id", "card-" + index)
     div.classList.add("card");
       
-    let header = document.createElement("h3")
+    let header = document.createElement("h4")
     header.classList.add("title")
     header.textContent = book.title;
 
